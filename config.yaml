@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    user1:
+      email: user1@mqube.ai
+      name: User 1
+      password: $2b$12$1nunA7h3YEg./rwISowwBecqJ5M66h/POR3hPPiORqs.rAbdIlyn6 # To be replaced with hashed password
+    user2:
+      email: user2@mqube.ai
+      name: User 2
+      password: $2b$12$uDtSLFxGnwgRvF8nB2VWv.tJX9jcVauZqbeI.wFCl3Tq0TwsHFxCa # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - dev@mqube.ai
